@@ -1,2 +1,9 @@
-(function(win){
-})(top);
+(function(){
+    try{
+        if(parent == self){
+            
+        }
+    }catch(ex){
+
+    }
+})();
