@@ -1,0 +1,30 @@
+{
+  "name": "prismatic-injector",
+  "version": "0.0.1",
+  "description": "棱镜注射器",
+  "homepage": "https://github.com/peigong/prismatic-injector#readme",
+  "author": {
+      "name": "周培公",
+      "email": "peigong@foxmail.com",
+      "url": "http://www.peigong.net"
+  },
+  "files": ["src"],
+  "main": "src/entry.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peigong/prismatic-injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peigong/prismatic-injector/issues"
+  },
+  "devDependencies": {
+      "gulp": "^3.9.0",
+      "gulp-load-plugins": "^0.10.0",
+      "gulp-eslint": "^2.0.0",
+      "gulp-exclude-gitignore": "^1.0.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
