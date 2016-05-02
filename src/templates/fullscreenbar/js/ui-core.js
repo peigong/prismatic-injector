@@ -1,6 +1,4 @@
-var uiCore = angular.module("toolbarCore", ["ngTouch"]);
-top.tlbs = top.tlbs || {};
-top.tlbs.toolbarURL = './fullscreenbar/'
+var uiCore =  angular.module("toolbarCore", ["ngTouch"]);
 top.tlbs.referer = top.window.location ? top.window.location.hostname + (top.window.location.port ? ":" + top.window.location.port : "") : "";
 top.tlbs.transitionendEvent = "transitionend";
 void 0 === window.ontransitionend && void 0 !== window.onwebkittransitionend && (top.tlbs.transitionendEvent = "webkitTransitionEnd transitionend");
@@ -354,7 +352,7 @@ uiCore.service("coreUtils", ["$log", "$window", "ngLocalStorage", "$http", funct
     }
     ;
     this.sendRequest = function(a, c, e, d) {
-        a = b.jsonp(top.tlbs.toolbarURL + "service/" + a + "?callback=JSON_CALLBACK", {
+        a = b.jsonp(top.tlbs.servicePath + a + "?callback=JSON_CALLBACK", {
             params: {
                 reqparam: c,
                 csession: top.tlbs.csession,
@@ -676,7 +674,7 @@ uiCore.factory("httpService", ["$http", "cacheService", "coreService", "coreUtil
             }));
         else {
             var r = this.actionChain;
-            h = a.jsonp(top.tlbs.toolbarURL + "service/" + f + "?callback=JSON_CALLBACK", {
+            h = a.jsonp(top.tlbs.servicePath + f + "?callback=JSON_CALLBACK", {
                 params: {
                     reqparam: this.requestData,
                     csession: top.tlbs.csession,

@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     z-index: 2047483648;
-    /*background-image:url(./images/1.png);*/
+    /*background-image:url(../images/1.png);*/
     background-size: 100% 100%;
     background-repeat: no-repeat;
     /*display:block;*/
@@ -997,7 +997,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: url(./images/erciqueren.png) left top no-repeat;
+    background: url(../images/erciqueren.png) left top no-repeat;
     background-size: 100% 100%;
 }
 .tbholder .c60_fbar_img_txt_table{
@@ -1011,7 +1011,7 @@
     display:inline-block;
     width:3.73em;
     height:3.73em;
-    background:url(./images/haveatea.jpg) no-repeat;
+    background:url(../images/haveatea.jpg) no-repeat;
     background-size:3.73em 3.73em;
 }
 .tbholder .c60_fbar_img_txt_table tr td:nth-child(2){
@@ -1137,7 +1137,7 @@
   display: inline-block;
   height: 2.25em;
   line-height: 2.25em;
-  background: url(./images/nomore.jpg) center left no-repeat;
+  background: url(../images/nomore.jpg) center left no-repeat;
   background-size: 2.25em 2.25em;
   color: #c2c3c3;
   font-size: .8em;
@@ -1664,7 +1664,7 @@ a.c60_fbar_ld_btn_link:active {text-decoration:none;}
 .tbholder .c60_fbar_bg_piru{
     width:19.4em;
     height:20.7em;
-    background:url(./images/c60_fbar_popimg01.png) no-repeat;
+    background:url(../images/c60_fbar_popimg01.png) no-repeat;
     background-size:19.4em 20.7em;
     position:fixed;
     z-index:2047483647;
@@ -1672,7 +1672,7 @@ a.c60_fbar_ld_btn_link:active {text-decoration:none;}
 .tbholder .c60_fbar_piru_close{
     width:1.8em;
     height:1.8em;
-    background:url(./images/c60_fbar_piru_close.png) no-repeat;
+    background:url(../images/c60_fbar_piru_close.png) no-repeat;
     background-size:1.8em 1.8em;
     position:absolute;
     bottom:-0.9em;
@@ -2172,7 +2172,7 @@ font-size: 1em;
 	width:2em;
 	height:2em;
 	font-size:0.9em;
-	background-image:url(./images/news_center_chose_gray.png);
+	background-image:url(../images/news_center_chose_gray.png);
 	background-repeat : no-repeat;
 	background-size:1.9em 1.9em;
 }
@@ -2182,7 +2182,7 @@ font-size: 1em;
 	width:2em;
 	height:2em;
 	font-size:0.9em;
-	background-image:url(./images/news_center_chose_gray.png);
+	background-image:url(../images/news_center_chose_gray.png);
 	background-repeat : no-repeat;
 	background-size:1.9em 1.9em;
 }
@@ -2191,7 +2191,7 @@ font-size: 1em;
 	width:2em;
 	height:2em;
 	font-size:0.9em;
-	background-image:url(./images/news_center_chose_green.png);
+	background-image:url(../images/news_center_chose_green.png);
 	background-repeat : no-repeat;
 	background-size:1.9em 1.9em;
 }
@@ -2230,7 +2230,7 @@ font-size: 1em;
 .tbholder .c60_fbar_ncc_nomore_icotxt{
 	display:inline-block;
 	height:2em;
-	background:url(./images/nomore.jpg) left center no-repeat;
+	background:url(../images/nomore.jpg) left center no-repeat;
 	background-size:1.8em 1.8em;
 	padding-left:2em;
 	color:#c2c3c3;
@@ -2368,7 +2368,7 @@ z-index: 2047483647;
     height: 100%;
     top: 0;
     left: 0.5em;
-    background: url("./images/reloadwarn.png") no-repeat scroll 0 center transparent;
+    background: url("../images/reloadwarn.png") no-repeat scroll 0 center transparent;
     background-size: contain;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -2559,7 +2559,7 @@ z-index: 2047483647;
     font-size: 0.8em;
     line-height: 1.8em;
     color: #222;
-    background: url(./images/my_privilege_ico_01.png) left center no-repeat;
+    background: url(../images/my_privilege_ico_01.png) left center no-repeat;
     background-size: 1.2em 1.2em;
     padding-left: 1.5em;
 }
@@ -2569,7 +2569,7 @@ z-index: 2047483647;
     font-size: 0.8em;
     line-height: 1.8em;
     color: #222;
-    background: url(./images/my_privilege_ico_02.png) left center no-repeat;
+    background: url(../images/my_privilege_ico_02.png) left center no-repeat;
     background-size: 1.2em 1.2em;
     padding-left: 1.5em;
 }
@@ -2579,7 +2579,7 @@ z-index: 2047483647;
     font-size: 0.8em;
     line-height: 1.8em;
     color: #222;
-    background: url(./images/my_privilege_ico_03.png) left center no-repeat;
+    background: url(../images/my_privilege_ico_03.png) left center no-repeat;
     background-size: 1.2em 1.2em;
     padding-left: 1.5em;
 }
@@ -2630,7 +2630,7 @@ z-index: 2047483647;
     display:inline-block;
     width:3.73em;
     height:3.73em;
-    background:url(./images/haveatea.jpg) no-repeat;
+    background:url(../images/haveatea.jpg) no-repeat;
     background-size:3.73em 3.73em;
 }
 .tbholder .c60_fbar_wchimg_txt_table tr td:nth-child(2){
@@ -2691,7 +2691,7 @@ z-index: 2047483647;
     line-height:2.4em;
     color:#222;
     font-size:0.9625em;
-    background:url(./images/chinamobile.jpg) left center no-repeat;
+    background:url(../images/chinamobile.jpg) left center no-repeat;
     background-size:2.4em 2.4em;
     padding-left:3em;
 }
@@ -2979,7 +2979,7 @@ z-index: 2047483647;
 	position:absolute;
 	width:1em;
 	height:1em;
-	background:url(./images/weixiao.png) no-repeat;
+	background:url(../images/weixiao.png) no-repeat;
 	background-size:1em 1em;
 	right:-0.6em;
 	top:-0.45em;
@@ -2998,7 +2998,7 @@ z-index: 2047483647;
 	position:absolute;
 	width:1em;
 	height:1em;
-	background:url(./images/yujing.png) no-repeat;
+	background:url(../images/yujing.png) no-repeat;
 	background-size:1em 1em;
 	right:-0.6em;
 	top:-0.45em;
@@ -3014,7 +3014,7 @@ z-index: 2047483647;
 	line-height: 3.73em;
 	font-size: 0.875em;
 	color: #222;
-	background: url(./images/nodetail.jpg) left center no-repeat;
+	background: url(../images/nodetail.jpg) left center no-repeat;
 	background-size: 3.73em 3.73em;
 	padding-left: 4em;
 	margin-top: 48%;
@@ -3048,7 +3048,7 @@ z-index: 2047483647;
 	width:5em;
 	height:5em;
 	margin:0 auto;
-	background:url(./images/success.jpg) center center no-repeat;
+	background:url(../images/success.jpg) center center no-repeat;
 	background-size:100% 100%;
 }
 .tbholder .c60_fbar_abnormaldetailerror_text{
@@ -3100,7 +3100,7 @@ z-index: 2047483647;
     display:inline-block;
     width:3.73em;
     height:3.73em;
-    background:url(./images/haveatea.jpg) no-repeat;
+    background:url(../images/haveatea.jpg) no-repeat;
     background-size:3.73em 3.73em;
 }
 .tbholder .c60_fbar_wchimg_txt_table tr td:nth-child(2){
@@ -3161,7 +3161,7 @@ z-index: 2047483647;
     line-height:2.4em;
     color:#222;
     font-size:0.9625em;
-    background:url(./images/chinamobile.jpg) left center no-repeat;
+    background:url(../images/chinamobile.jpg) left center no-repeat;
     background-size:2.4em 2.4em;
     padding-left:3em;
 }
@@ -3224,7 +3224,7 @@ z-index: 2047483647;
 	width:12.5em;
 	height:12.5em;
 	font-size:1em;
-	background:url(./images/cesu_plate_img.png) no-repeat;
+	background:url(../images/cesu_plate_img.png) no-repeat;
 	background-size:12.5em 12.5em;
 	margin:1em auto;
 	position:relative;
@@ -3235,7 +3235,7 @@ z-index: 2047483647;
   width: 6em;
   height: 6em;
   border-radius: 6em;
-  background: url(./images/cesu_plate_point.png) no-repeat;
+  background: url(../images/cesu_plate_point.png) no-repeat;
   background-size: 100% 100%;
   background-position: 0 0;
   top: 3.25em;
@@ -3573,7 +3573,7 @@ z-index: 2047483647;
 	  margin-left: auto;
   margin-right: auto;
   display: block;
-  background: url(./images/t.png) center center no-repeat;
+  background: url(../images/t.png) center center no-repeat;
   width: 2em;
   height: .8em;
   background-size: 100% 100%;
@@ -3583,7 +3583,7 @@ z-index: 2047483647;
   -webkit-animation:1.25s fadeOutUp ease-in-out infinite;animation:1.25s fadeOutUp ease-in-out infinite;
 }
 .tbholder .c60_fbar_drag b.c60_fbar_bup{
-   background: url(./images/t2.png) center center no-repeat;
+   background: url(../images/t2.png) center center no-repeat;
    background-size: 100% 100%;
 }
 .tbholder .c60_fbar_app_hline{
@@ -3705,7 +3705,7 @@ background-color: #f2f2f2;
 	float:left;
 	width:3.5em;
 	height:3.5em;
-	background:url(./images/myjinbi.png) no-repeat;
+	background:url(../images/myjinbi.png) no-repeat;
 	background-size:3.5em 3.5em;
 }
 .tbholder .c60_fbar_money_txt{
@@ -3767,7 +3767,7 @@ background-color: #f2f2f2;
 	display:inline-block;
 	width:1.55em;
 	height:0.7em;
-	background:url(./images/totop.png) no-repeat;
+	background:url(../images/totop.png) no-repeat;
 	background-size:1.55em 0.7em;
 	position:absolute;
 	right:2.7em;
@@ -4476,7 +4476,7 @@ background-color: #f2f2f2;
 	float:right;
 	width:1em;
 	height:1em;
-	background:url(./images/news_center_pop_close.png) no-repeat;
+	background:url(../images/news_center_pop_close.png) no-repeat;
 	background-size:1em 1em;
 	font-size:1em;
 	margin-top:0.8em;
@@ -4535,7 +4535,7 @@ background-color: #f2f2f2;
 	float:left;
 	width:3.2em;
 	height:3.2em;
-	background:url(./images/mybg_green.png) no-repeat;
+	background:url(../images/mybg_green.png) no-repeat;
 	background-size:3.2em 3.2em;
 }
 .tbholder .c60_fbar_my_txt2{
@@ -4566,7 +4566,7 @@ background-color: #f2f2f2;
 }
 .tbholder .c60_fbar_member2{
 	display:inline-block;
-	background:url(./images/rili.png) left center no-repeat;
+	background:url(../images/rili.png) left center no-repeat;
 	background-size:1.2em 1.2em;
 	color:#0d7164;
 	font-size:0.875em;
@@ -4634,7 +4634,7 @@ background-color: #f2f2f2;
 	display:inline-block;
 	height:2em;
 	line-height:2.1em;
-	background:url(./images/wodejinbi.png) left center no-repeat;
+	background:url(../images/wodejinbi.png) left center no-repeat;
 	background-size:1.5em 1.5em;
 	font-size:1em;
 	color:#222;
@@ -4651,7 +4651,7 @@ background-color: #f2f2f2;
 	display:inline-block;
 	height:2.1em;
 	line-height:2.3em;
-	background:url(./images/wodeshezhi.png) left center no-repeat;
+	background:url(../images/wodeshezhi.png) left center no-repeat;
 	background-size:1.5em 1.5em;
 	font-size:1em;
 	color:#222;
@@ -4681,7 +4681,7 @@ background-color: #f2f2f2;
 	 display:inline-block;
 	 width:1.6em;
 	 height:2em;
-	 background:url(./images/roright.png) center right no-repeat;
+	 background:url(../images/roright.png) center right no-repeat;
 	 background-size:1.6em 1.6em;
 	 font-size:0.75em;
 	 color:#999;
@@ -5091,7 +5091,7 @@ background: rgba(0,0,0,0.5);
     display:inline-block;
     width:3.73em;
     height:3.73em;
-    background:url(./images/haveatea.jpg) no-repeat;
+    background:url(../images/haveatea.jpg) no-repeat;
     background-size:3.73em 3.73em;
 }
 .tbholder .c60_fbar_wchimg_txt_table tr td:nth-child(2){
@@ -5150,7 +5150,7 @@ background: rgba(0,0,0,0.5);
     line-height:2.4em;
     color:#222;
     font-size:0.9625em;
-    background:url(./images/chinamobile.jpg) left center no-repeat;
+    background:url(../images/chinamobile.jpg) left center no-repeat;
     background-size:2.4em 2.4em;
     padding-left:3em;
 }
@@ -5238,7 +5238,7 @@ background: rgba(0,0,0,0.5);
 
 .tbholder .c60_fbar_search_input2{
 	text-indent:-999px;
-	background-image: url(./images/searchbt.png);
+	background-image: url(../images/searchbt.png);
 	background-size: 2.5em 2.5em;
 	background-repeat: no-repeat;
 	height: 2.5em;
@@ -5291,7 +5291,7 @@ background: rgba(0,0,0,0.5);
 	float:left;
 	width:3.2em;
 	height:3.2em;
-	background:url(./images/mybg_green.png) no-repeat;
+	background:url(../images/mybg_green.png) no-repeat;
 	background-size:3.2em 3.2em;
 }
 .tbholder .c60_fbar_my_txt{
@@ -5321,7 +5321,7 @@ background: rgba(0,0,0,0.5);
 }
 .tbholder .c60_fbar_my_member,.tbholder span.c60_fbar_my_member{
 	display:inline-block;
-	background:url(./images/rili.png) left bottom no-repeat;
+	background:url(../images/rili.png) left bottom no-repeat;
 	background-size:1.1em 1.1em;
 	color:#0d7164;
 	font-size:0.875em;
@@ -5334,7 +5334,7 @@ background: rgba(0,0,0,0.5);
 }
 .tbholder .c60_fbar_member{
 	display:inline-block;
-	background:url(./images/rili.png) left center no-repeat;
+	background:url(../images/rili.png) left center no-repeat;
 	background-size:1.2em 1.2em;
 	color:#0d7164;
 	font-size:0.875em;
@@ -5362,7 +5362,7 @@ background: rgba(0,0,0,0.5);
   display: inline-block;
   height: 1.6em;
   line-height: 1.6em;
-  background: url(./images/my_rule_ico.png) left 0.2em no-repeat;
+  background: url(../images/my_rule_ico.png) left 0.2em no-repeat;
   background-size: 1.1em 1.1em;
   color: #0d7164;
   font-size: 0.7em;
@@ -5418,7 +5418,7 @@ background: rgba(0,0,0,0.5);
 	display:inline-block;
 	height:2em;
 	line-height:2.1em;
-	background:url(./images/wodejinbi.png) left center no-repeat;
+	background:url(../images/wodejinbi.png) left center no-repeat;
 	background-size:1.5em 1.5em;
 	font-size:1em;
 	color:#222;
@@ -5463,7 +5463,7 @@ background: rgba(0,0,0,0.5);
 	 display:inline-block;
 	 width:1.6em;
 	 height:2em;
-	 background:url(./images/roright.png) center right no-repeat;
+	 background:url(../images/roright.png) center right no-repeat;
 	 background-size:1.6em 1.6em;
 	 font-size:0.75em;
 	 color:#999;
@@ -5487,7 +5487,7 @@ background: rgba(0,0,0,0.5);
 	display:inline-block;
 	height:1.5em;
 	line-height:1.5em;
-	background:url(./images/zuomian.png) left center no-repeat;
+	background:url(../images/zuomian.png) left center no-repeat;
 	background-size:1.2em 1.2em;
 	padding-left:1.5em;
 	font-size:1em;
@@ -5618,7 +5618,7 @@ background: rgba(0,0,0,0.5);
 	float:right;
 	width:1em;
 	height:1em;
-	background:url(./images/news_center_pop_close.png) no-repeat;
+	background:url(../images/news_center_pop_close.png) no-repeat;
 	background-size:1em 1em;
 	font-size:1em;
 	margin-top:0.8em;
@@ -5963,7 +5963,7 @@ width: 100%;
     width: 1.6em;
     z-index: 2047483649;
     cursor: pointer;
-    background-image: url(./images/toback.png);
+    background-image: url(../images/toback.png);
     background-size: 1.6em 1.6em;
     background-repeat: no-repeat;
 }
@@ -5983,7 +5983,7 @@ width: 100%;
 	display:inline-block;
 	width:8em;
 	height:8em;
-	/*background:url(./images/success.jpg) no-repeat;*/
+	/*background:url(../images/success.jpg) no-repeat;*/
 	background-size:8em 8em;
 	text-align:center;
     padding-top:5em
@@ -5992,7 +5992,7 @@ width: 100%;
 	display:inline-block;
 	width:8em;
 	height:8em;
-	/*background:url(./images/success.jpg) no-repeat;*/
+	/*background:url(../images/success.jpg) no-repeat;*/
 	background-size:8em 8em;
 	text-align:center;
 }
@@ -6033,7 +6033,7 @@ width: 100%;
 	display:inline-block;
 	width:8em;
 	height:8em;
-	/*background:url(./images/zuile.jpg) no-repeat;*/
+	/*background:url(../images/zuile.jpg) no-repeat;*/
 	background-size:8em 8em;
 	text-align:center;
 }
@@ -6049,7 +6049,7 @@ width: 100%;
 	display:inline-block;
 	width:9.85em;
 	height:3.35em;
-	/*background:url(./images/404.jpg) no-repeat;*/
+	/*background:url(../images/404.jpg) no-repeat;*/
 	background-size:9.85em 3.35em;
 	text-align:center;
 }
@@ -6064,7 +6064,7 @@ width: 100%;
 	display:inline-block;
 	width:8em;
 	height:8em;
-	/*background:url(./images/gongchengshi.jpg) no-repeat;*/
+	/*background:url(../images/gongchengshi.jpg) no-repeat;*/
 	background-size:8em 8em;
 	text-align:center;
 }
@@ -6320,7 +6320,7 @@ width: 100%;
 	display:inline-block;
 	width:8em;
 	height:8em;
-	/*background:url(./images/success.jpg) no-repeat;*/
+	/*background:url(../images/success.jpg) no-repeat;*/
 	background-size:8em 8em;
 	text-align:center;
 }
@@ -6476,7 +6476,7 @@ width: 100%;
 	display:inline-block;
 	height:1.5em;
 	line-height:1.5em;
-	background:url(./images/guanyu.png) left center no-repeat;
+	background:url(../images/guanyu.png) left center no-repeat;
 	background-size:1.5em 1.5em;
 	font-size:1em;
 	color:#222;
@@ -6486,7 +6486,7 @@ width: 100%;
 	display:inline-block;
 	height:1.5em;
 	line-height:1.5em;
-	background:url(./images/fankui.png) left center no-repeat;
+	background:url(../images/fankui.png) left center no-repeat;
 	background-size:1.5em 1.5em;
 	font-size:1em;
 	color:#222;
@@ -6496,7 +6496,7 @@ width: 100%;
 	display:inline-block;
 	height:1.5em;
 	line-height:1.5em;
-	background:url(./images/guanbi.png) left center no-repeat;
+	background:url(../images/guanbi.png) left center no-repeat;
 	background-size:1.6em 1.6em;
 	font-size:1em;
 	color:#222;
@@ -6512,7 +6512,7 @@ width: 100%;
 	height:1.6em;
 	font-size:0.875em;
 	padding-right:2em;
-	background:url(./images/todown.png) center right no-repeat;
+	background:url(../images/todown.png) center right no-repeat;
 	background-size:1.6em 1.6em;
 	margin-top: 0.2em;
 }
@@ -6522,7 +6522,7 @@ width: 100%;
 	height:1.6em;
 	font-size:0.875em;
 	padding-right:2em;
-	background:url(./images/toup.png) center right no-repeat;
+	background:url(../images/toup.png) center right no-repeat;
 	background-size:1.6em 1.6em;
 }
 .tbholder .c60_fbar_my_con_sz{
@@ -6585,7 +6585,7 @@ width: 100%;
 	display:inline-block;
 	width:6em;
 	height:6em;
-	background:url(./images/guanyu1.png) left center no-repeat;
+	background:url(../images/guanyu1.png) left center no-repeat;
 	background-size:6em 6em;
 	font-size:0.875em;
 	position: absolute;
@@ -6597,7 +6597,7 @@ width: 100%;
 	display:inline-block;
 	width:6em;
 	height:6em;
-	background:url(./images/guanyu2.png) right center no-repeat;
+	background:url(../images/guanyu2.png) right center no-repeat;
 	background-size:6em 6em;
 	font-size:0.875em;
 	position: absolute;
@@ -6609,7 +6609,7 @@ width: 100%;
 	display:inline-block;
 	width:6em;
 	height:6em;
-	background:url(./images/guanyu3.png) left center no-repeat;
+	background:url(../images/guanyu3.png) left center no-repeat;
 	background-size:6em 6em;
 	font-size:0.875em;
 	position: absolute;
@@ -6621,7 +6621,7 @@ width: 100%;
 	display:inline-block;
 	width:6em;
 	height:6em;
-	background:url(./images/guanyu4.png) right center no-repeat;
+	background:url(../images/guanyu4.png) right center no-repeat;
 	background-size:6em 6em;
 	font-size:0.875em;
 	position: absolute;
@@ -6766,7 +6766,7 @@ font-size:1em;
 	display:inline-block;
 	height:1.8em;
 	line-height:1.8em;
-	background:url(./images/gexinghua.png) left center no-repeat;
+	background:url(../images/gexinghua.png) left center no-repeat;
 	background-size:1.6em 1.6em;
 	font-size:1em;
 	color:#222;
@@ -6857,7 +6857,7 @@ font-size:1em;
 	  width: 4em;
 	  z-index: 2047483649;
 	  cursor: pointer;
-	  background-image: url(./images/toback.png);
+	  background-image: url(../images/toback.png);
 	  background-size: 1.6em 1.6em;
 	  background-repeat: no-repeat;
 }
@@ -7092,7 +7092,7 @@ font-size:1em;
 	display:inline-block;
 	height:2.25em;
 	line-height:2.25em;
-	background:url(./images/nomore.jpg) center left no-repeat;
+	background:url(../images/nomore.jpg) center left no-repeat;
 	background-size:2.25em 2.25em;
 	color:#c2c3c3;
 	font-size:0.8em;
@@ -7132,7 +7132,7 @@ margin: 0;
 padding: 0;
 background-repeat: repeat-x;
 background-position: 0px bottom;
-background-image: url(./images/hline.png);
+background-image: url(../images/hline.png);
 background-clip: border-box;
 
 }
@@ -7203,7 +7203,7 @@ background-clip: border-box;
     width: 1.5em;
     height: 1.5em;
     padding: 0.625em;
-    background:url(./images/toback.png) left center no-repeat;
+    background:url(../images/toback.png) left center no-repeat;
     -moz-background-size:80%;
     -webkit-background-size: 80%;
     -o-background-size:80%;
@@ -7260,7 +7260,7 @@ body #J_search, body #J_Taojia {
     height: 100%;
     z-index: 2047483647;
     cursor: pointer;
-    background: url(./images/left_arrow.png);
+    background: url(../images/left_arrow.png);
     opacity: 0;
     -webkit-transition-property: opacity;
     -webkit-transition-delay: 0s;
@@ -7279,7 +7279,7 @@ body #J_search, body #J_Taojia {
     height: 100%;
     z-index: 2047483647;
     cursor: pointer;
-    background: url(./images/right_arrow.png);
+    background: url(../images/right_arrow.png);
     opacity: 0;
     -webkit-transition-property: opacity;
     -webkit-transition-delay: 0s;
