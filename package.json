@@ -18,13 +18,21 @@
     "url": "https://github.com/peigong/prismatic-injector/issues"
   },
   "devDependencies": {
+      "del": "^1.2.1",
+      "browser-sync": "^2.9.3",
+      "koa": "^2.0.0",
+      "koa-route": "^3.1.0",
+      "koa-static": "^3.0.0",
+      "koa-safe-jsonp": "^0.3.1",
       "gulp": "^3.9.0",
       "gulp-load-plugins": "^0.10.0",
       "gulp-eslint": "^2.0.0",
       "gulp-exclude-gitignore": "^1.0.0"
   },
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "prebuild": "npm install",
+    "build": "gulp && node ./server/app.js"
   },
   "license": "MIT"
 }

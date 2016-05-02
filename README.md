@@ -30,11 +30,12 @@
 
 ## 端口号 ##
 
-- 8080：宿主页面端口
-- 8081：针头脚本地址端口
-- 8082：模板选择服务端口
-- 8083：模板库地址端口
-- 8084：模板内容服务端口
+- 3000：宿主测试页面端口
+- 3001：宿主页面管理端口
+- 3080：针头脚本地址端口
+- 3081：模板选择服务桩端口
+- 3082：模板库地址端口
+- 3083：模板内容服务桩端口
 
 [travis-image]: https://travis-ci.org/peigong/prismatic-injector.svg?branch=master
 [travis-url]: https://travis-ci.org/peigong/prismatic-injector
