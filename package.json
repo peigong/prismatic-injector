@@ -8,7 +8,7 @@
       "email": "peigong@foxmail.com",
       "url": "http://www.peigong.net"
   },
-  "files": ["lib"],
+  "files": ["lib", "doc"],
   "main": "lib/needle.js",
   "repository": {
     "type": "git",
