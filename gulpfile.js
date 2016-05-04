@@ -5,48 +5,24 @@ var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var browserSync = require('browser-sync').create();
 
+var src = './lib/needle.js';
+
 gulp.task('clean', function(){
-    del(['dist']);
+    del(['dist/**']);
 });
 
 gulp.task('static', function () {
-    return gulp.src('**/*.js')
-        .pipe($.excludeGitignore())
+    return gulp.src(src)
         .pipe($.eslint())
         .pipe($.eslint.format())
         .pipe($.eslint.failAfterError());
 });
 
 gulp.task('build:needle', function(){
-    return gulp.src('./lib/**')
+    return gulp.src(src)
+        .pipe($.uglify())
+        .pipe($.rename('n.js'))
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('build:parasitifer', function(){
-    return gulp.src('./src/index.html')
-        .pipe(gulp.dest('./dist'));
-});
-
-gulp.task('build:templates', function(){
-    return gulp.src('./src/templates/**')
-        .pipe(gulp.dest('./dist/templates'));
-});
-
-gulp.task('build:stub', function(){
-    return gulp.src('./src/stub/**')
-        .pipe(gulp.dest('./dist/stub'));
-});
-
-gulp.task('serve', function(){
-    var settings = {
-        server: {
-            baseDir: './dist'
-        }
-    }
-    browserSync.init(settings);
-
-    gulp.watch(['./dist/**'])
-    .on('change', browserSync.reload);
-});
-
-gulp.task('default', ['clean', 'build:needle', 'build:parasitifer', 'build:templates', 'build:stub']);
+gulp.task('default', ['clean', 'static', 'build:needle']);
