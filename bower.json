@@ -1,0 +1,29 @@
+{
+    "name": "prismatic-injector",
+    "version": "0.0.1",
+    "description": "棱镜注射器",
+    "homepage": "https://github.com/peigong/prismatic-injector#readme",
+    "author": {
+        "name": "周培公",
+        "email": "peigong@foxmail.com",
+        "url": "http://www.peigong.net"
+    },
+    "files": ["lib", "doc"],
+    "main": "lib/needle.js",
+    "author": {
+        "name": "周培公",
+        "email": "peigong@foxmail.com",
+        "url": "http://www.peigong.net"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "qunit": "^1.23.1"
+    },
+    "license": "MIT"
+}
