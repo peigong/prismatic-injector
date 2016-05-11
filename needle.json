@@ -1,5 +1,6 @@
 {
     "name": "n.js",
+    "revisioning": false,
     "namespace": "__PI__",
     "opt": "opt.do"
 }

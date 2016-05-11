@@ -27,10 +27,15 @@ gulp.task('static', function () {
 
 gulp.task('build:needle', function(){
     return gulp.src(src)
+    .pipe($.sourcemaps.init())
     .pipe($.replace('__PI__', settings.namespace))
     .pipe($.replace('opt.do', settings.opt))
     .pipe($.uglify())
     .pipe($.rename(settings.name))
+    .pipe($.if(settings.revisioning, $.rev()))
+    .pipe($.sourcemaps.write('.'))
+    .pipe(gulp.dest('./dist'))
+    .pipe($.rev.manifest())
     .pipe(gulp.dest('./dist'));
 });
 
