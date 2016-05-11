@@ -1,9 +1,16 @@
 'use strict';
 
 var del = require('del');
+var gen = require('random-gen');
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var browserSync = require('browser-sync').create();
+
+var settings = require('./needle.json');
+if('random' === settings.namespace){ // 如果命名空间设置为'random'，则使用随机生成的标识
+    settings.namespace = gen.upper(8); // 8个随机大写字符的标识
+}
+settings.id = settings.namespace.toLowerCase();
 
 var src = './lib/needle.js';
 
@@ -20,8 +27,10 @@ gulp.task('static', function () {
 
 gulp.task('build:needle', function(){
     return gulp.src(src)
+    .pipe($.replace('__PI__', settings.namespace))
+    .pipe($.replace('opt.do', settings.opt))
     .pipe($.uglify())
-    .pipe($.rename('n.js'))
+    .pipe($.rename(settings.name))
     .pipe(gulp.dest('./dist'));
 });
 
