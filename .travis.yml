@@ -4,3 +4,5 @@ node_js:
   - v4
 before_install:
   - bower install
+before_script:
+  - npm install -g bower
