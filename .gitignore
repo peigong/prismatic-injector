@@ -1,5 +1,6 @@
+
+.tmp
 dist
-test-tmp
 coverage
 
 node_modules

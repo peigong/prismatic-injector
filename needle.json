@@ -2,5 +2,6 @@
     "name": "n.js",
     "revisioning": false,
     "namespace": "__PI__",
+    "server": "",
     "opt": "opt.do"
 }
