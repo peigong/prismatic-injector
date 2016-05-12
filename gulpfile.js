@@ -51,12 +51,15 @@ gulp.task('build:needle', ['pre-process'], function(){
 
 // 输出针头脚本的ID和文件名
 gulp.task('build:name', ['build:needle'], function(){
+    var name = settings.name;
     var content = [ settings.id ];
     if(settings.revisioning){
-
-    }else{
-        content.push(settings.name);
+        var manifest = require('./dist/rev-manifest.json');
+        if(manifest.hasOwnProperty(name)){
+            name = manifest[name];
+        }
     }
+    content.push(name);
     fs.writeFile('needle.name', content.join('\t:\t'));
 });
 
