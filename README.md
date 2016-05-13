@@ -28,11 +28,11 @@
 - 调度服务器
 - 调度服务名
 
-具体参见：[针头脚本配置规范(./doc/needle.md)](./doc/needle.md)
+具体参见：[针头脚本的构建(./doc/needle.md)](./doc/needle.md)
 
 ## 接口规范 ##
 
-- [针头脚本配置规范](./doc/needle.md)
+- [针头脚本的构建](./doc/needle.md)
 - [模板选择服务接口规范](./doc/opt.md)
 - [模板开发规范](./doc/template.md)
 
