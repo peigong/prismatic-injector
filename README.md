@@ -35,6 +35,7 @@
 - [针头脚本的构建](./doc/needle.md)
 - [模板选择服务接口规范](./doc/opt.md)
 - [模板开发规范](./doc/template.md)
+- [针头脚本公共方法](./doc/advanced.md)
 
 [travis-image]: https://travis-ci.org/peigong/prismatic-injector.svg?branch=master
 [travis-url]: https://travis-ci.org/peigong/prismatic-injector
