@@ -62,4 +62,23 @@
         var bar = document.querySelectorAll('foo');
         equal(bar.length, 1, '检查注入在iframe中创建的节点');
     });
+
+    module('测试针头脚本的配置类工具方法');
+    test('检查 global.config 及读写方法的存在', function(){
+        ok(!!global.config, 'global.config 对象已定义');
+        equal(typeof global.config.set, 'function', 'global.config.set 方法存在');
+        equal(typeof global.config.get, 'function', 'global.config.get 方法存在');
+    });
+    test('检查 global.config 读写方法的正确性', function(){
+        global.config.set('foo.bar', 'bar');
+        global.config.set('foo', { qux: 'qux'});
+
+        var qux = global.config.get('foo.qux');
+        equal(qux, 'qux', '测试赋值正确');
+        var bar = global.config.get('foo.bar');
+        equal(bar, 'bar', '测试深度复制');
+        global.config.set('foo.bar', { baz: 'baz' });
+        var baz = global.config.get('foo.bar.baz');
+        equal(baz, 'baz', '测试覆盖赋值');
+    });
 })(__PI__);

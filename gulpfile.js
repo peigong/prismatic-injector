@@ -20,7 +20,7 @@ gulp.task('clean', function(){
 });
 
 // 预处理针头脚本
-gulp.task('pre-process', function(){
+gulp.task('pre-process', ['clean'], function(){
     return gulp.src('./lib/needle.js')
     .pipe($.preprocess({ context: { AUTO: !settings.server, SERVER: settings.server } }))
     .pipe($.replace('__PI__', settings.namespace))
@@ -66,7 +66,7 @@ gulp.task('build:name', ['build:needle'], function(){
 });
 
 // 预处理单元测试
-gulp.task('pre-unit', function(){
+gulp.task('pre-unit', ['clean'], function(){
     return gulp.src('./test/**')
     .pipe($.replace('__pi__', settings.id))
     .pipe($.replace('opt.do', settings.opt))
@@ -82,7 +82,7 @@ gulp.task('pre-test', ['pre-process'], function(){
 });
 
 // 执行自动化测试
-gulp.task('test', ['pre-unit', 'pre-test'], function(done){
+gulp.task('test', ['pre-process', 'pre-unit', 'pre-test'], function(done){
     return gulp.src('./.tmp/unit/**/*.html')
     .pipe($.qunit())
     .pipe($.istanbul.writeReports());
