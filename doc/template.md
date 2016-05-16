@@ -11,10 +11,10 @@
 
 可以在脚本中调用的公共方法如下：
 
-- global.getSettings()：获取模板的配置。
-- global.inject(DomElement element)：向宿主页面注入定义完毕的DOM元素。
-- global.config.set(key, val)：写入配置。key可以是以`.`号分隔的字符串。
-- global.config.get(key)：读取配置。key可以是以`.`号分隔的字符串。
+- **global.getSettings()：**获取模板的配置。
+- **global.inject(DomElement element)：**向宿主页面注入定义完毕的DOM元素。
+- **global.config.set(key, val)：**写入配置。key可以是以`.`号分隔的字符串。
+- **global.config.get(key)：**读取配置。key可以是以`.`号分隔的字符串。
 
 更多公共方法，参见[针头脚本公共方法](./advanced.md)。
 
@@ -33,10 +33,10 @@
 
 配置文件各字段意义如下：
 
-- name：模板名称。
-- description：模板的描述信息。
-- scripts：需要系统依次加载的脚本文件地址，基于模板根目录查找。
-- styles：需要系统依次加载的样式文件地址，基于模板根目录查找。
+- **name：**模板名称。
+- **description：**模板的描述信息。
+- **scripts：**需要系统依次加载的脚本文件地址，基于模板根目录查找。
+- **styles：**需要系统依次加载的样式文件地址，基于模板根目录查找。
 
 ## 样式规范 ##
 
