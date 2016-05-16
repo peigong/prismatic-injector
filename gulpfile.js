@@ -16,7 +16,7 @@ settings.id = settings.namespace.toLowerCase();
 
 // 清理构建输出
 gulp.task('clean', function(){
-    return del(['dist', '.tmp', 'coverage']);
+    return del.sync(['dist', '.tmp', 'coverage']);
 });
 
 // 预处理针头脚本
