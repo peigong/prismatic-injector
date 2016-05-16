@@ -20,7 +20,7 @@ gulp.task('clean', function(){
 });
 
 // 预处理针头脚本
-gulp.task('pre-process', ['clean'], function(){
+gulp.task('pre-process', function(){
     return gulp.src('./lib/needle.js')
     .pipe($.preprocess({ context: { AUTO: !settings.server, SERVER: settings.server } }))
     .pipe($.replace('__PI__', settings.namespace))
@@ -50,10 +50,9 @@ gulp.task('build:needle', ['pre-process'], function(){
 });
 
 // 输出针头脚本的ID和文件名
-gulp.task('build:name', ['build:needle'], function(){
-    var name = settings.name;
+gulp.task('build:inject', ['build:needle'], function(){
     var conf = { script: { id: settings.id } };
-
+    var name = settings.name;
     if(settings.revisioning){
         var manifest = require('./dist/rev-manifest.json');
         if(manifest.hasOwnProperty(name)){
@@ -61,7 +60,6 @@ gulp.task('build:name', ['build:needle'], function(){
         }
     }
     conf.script.filename = name;
-
     fs.writeFile('inject.json', JSON.stringify(conf, null, 4));
 });
 
@@ -98,4 +96,4 @@ gulp.task('coveralls', ['test'], function(){
 });
 
 // 默认任务
-gulp.task('default', ['clean', 'static', 'build:needle', 'test', 'coveralls', 'build:name']);
+gulp.task('default', ['clean', 'static', 'build:needle', 'test', 'coveralls', 'build:inject']);
